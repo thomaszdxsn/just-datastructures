@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "just-datastructures"
+version = "0.1.0"
+description = "just datastructures, no any more"
+authors = ["thomaszdxsn <bnm_965321@sina.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+attrs = "^19.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
